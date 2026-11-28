@@ -104,6 +104,7 @@ CLISetup::registerUtility(new class extends UtilityScript
                 CLI::write($b, -1, false);
 
             CLI::write(str_pad('['.CLI::bold($sumNum).']', 21).'add another php configuration', -1, false);
+            CLI::write(str_pad('['.CLI::bold('Enter').']', 21).'save and continue', -1, false);
             CLI::write();
 
             if ($hasEmpty)
